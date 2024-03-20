@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:wght@100..900&family=Outfit&family=Young+Serif&display=swap" rel="stylesheet">
+
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body {background-color: hsl(0, 0%, 8%);
+      max-width: 1440px;
+    }
+
+    .attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: hsl(0, 0%, 100%);
+    margin-top: 30px;
+  }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      transform: translate(510px);
+      color:hsl(0, 0%, 100%);
+      background-color: hsl(0, 0%, 12%);
+      width: 330px;
+      height: 530px; 
+      border-radius: 10px;
+    }
+
+  .location {color: rgb(199, 252, 102);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: smaller;
+  margin-top: -10px;
+}
+  
+    .avatar {
+      border-radius: 100px;
+      width: 80px;
+    }
+
+    .socialmedia {
+      display: block;
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-style: normal;
+      font-size: smaller;
+    }
+
+    .child {
+    display: flex;
+    justify-content: center;
+    margin-right: 3px;
+    padding: 5px;
+    margin-bottom: 20px;
+    background-color: hsl(0, 0%, 20%);
+    width: 270px;
+    border-radius: 7px;
+    height: 25px;
+    align-items: center;
+    color: hsl(0, 0%, 80%);
+    font-weight: 600;
+  }
+
+  .occupation {color: hsl(0, 0%, 80%);
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: smaller;
+  }
+
+  .name {text-align: center;
+  color: hsl(0, 0%, 80%);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: larger;
+}
+
+
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+
+  <header class="name">
+  <img class="avatar" src="./assets/images/avatar-jessica.jpeg">
+  <p class="name">Jessica Randall</p>
+  </header>
+
+  <p class="location">London, United Kingdom</p> 
+
+
+  <p class="occupation">"Front-end developer and avid reader."</p>
+
+  <div class="socialmedia">
+  <div class="child">GitHub</div>
+  <div class="child">Mentor</div>
+  <div class="child">LinkedIn</div>
+  <div class="child">Twitter</div>
+  <div class="child">Instagram</div>
+  </div>
+
+</div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Aiordanidi</a>.
+  </div>
+</body>
+</html>
